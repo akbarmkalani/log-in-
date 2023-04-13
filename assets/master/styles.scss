@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+*{
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+main{
+    >div{
+      
+      
+        >section{
+             width: 900px !important;
+             height: 560px !important;  
+             box-shadow: 0 14px 28px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.12);
+         >form{
+            transition: all 0.6s ease-in-out;
+            background-color: #ffffffff;
+            &:nth-of-type(1){
+                transform: translateX(200%);
+                
+              }
+              &:nth-of-type(2){
+                z-index: 2;
+
+              
+              }
+         height: 100%;
+ 
+          
+            div{
+
+                 >h1{
+                    font-weight: 600;
+                 }
+                >section{
+                    >a{
+                        color: #000000;
+                        border:1px solid #EEEEEE;
+                        height: 40px !important;
+                        width: 40px !important;
+                        margin: 10px;
+                        border-radius: 50%;
+                        transition: .4s;
+                      
+                        &:hover{
+                            background-color: #FF4B2B;
+                            color: #EEEEEE;
+                        }
+
+                    }
+                }
+                >input{
+                    width: 350px !important;
+                    margin: 15px 0;
+                    display: flex;
+                    height: 50px;
+                    border: none;
+                    outline: none;
+                    background-color: #EEEEEE;
+                }
+                 >button{
+                   background-color: #FF4B2B;
+                   width: 130px !important;
+                   border: none;
+                   outline: none;
+                   height: 50px;
+                   border-radius: 22px;
+                   color: aliceblue;
+                   font-weight: 600;
+                   transition: .4s;
+                   &:hover{
+                    background-color: #a21a02;
+                   }
+                 }
+
+            }
+        }
+      }
+          >.overlay-container{
+            height: 99.7%;
+            width: 899px !important;
+           transition: .4s;
+            background: linear-gradient(to right, #ff4b2b, #ff416c);
+           /*  >.overlay-left {
+                transform: translateX(-20%);
+              }
+              >.overlay-right {
+                right: 0;
+                transform: translateX(0);
+              } */
+              >section{
+                transition: transform 0.6s ease-in-out;
+                &:nth-of-type(1){
+                  transform: translateX(0);
+                  z-index: 2;
+                }
+                &:nth-of-type(2){
+                    transform: translateX(200%);
+                }
+                height: 100%;
+                >div{
+                    >h1{
+                        font-weight: 600;
+                        color: #EEEEEE;
+                    }
+                    >p{
+                        color: #EEEEEE;
+                    }
+                    >div{
+                        >button{
+                            background-color: inherit;
+                            width: 130px !important;
+                            border: none;
+                            outline: none;
+                            height: 50px;
+                            border-radius: 22px;
+                            color: aliceblue;
+                            font-weight: 600;
+                            border: 1px solid #EEEEEE;
+                        
+                            transition: transform 80ms ease-in;
+                        }
+                    }
+                }
+             
+              }
+          } 
+            .right-panel-active .overlay-left {
+            transform: translateX(0);
+          }
+     }
+    }
+
+  
